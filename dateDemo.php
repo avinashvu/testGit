@@ -69,10 +69,11 @@
 			echo $NewName;*/
 			//$date = date("Y-m-d", time() + 45000);
 			$date = '10/13/2016';
-			//echo $expiryDate = date('Y-m-d',strtotime($date."-12 months"));
+			echo $expiryDate = date('Y-m-d',strtotime($date."-12 months"));
 			//echo $oneMonthBeforeexpireDate = date('Y-m-d',strtotime($expiryDate."+1 months"));
 			//echo $pointsexpireDate = date('Y-m-d',strtotime($date."+1 months"));
 			//echo $date1 = date("Y-m-01", time() + 45000);
+			
 			
 			//echo $reference = sha1(md5(time()));
 			//echo $mDate = date("y-M-d", time() + 45000);
